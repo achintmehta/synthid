@@ -1,0 +1,26 @@
+{
+  "DWT-DCT-SVD (invisible-watermark)": {
+    "psnr_db": 40.4,
+    "max_pixel_change": 70,
+    "decodes_after": {
+      "none (PNG)": true,
+      "JPEG quality 75": false,
+      "JPEG quality 40": false,
+      "resize to 90%": false,
+      "crop 10% off the edges": false,
+      "screenshot (80% + JPEG 85)": false
+    }
+  },
+  "TrustMark (Adobe)": {
+    "psnr_db": 45.3,
+    "max_pixel_change": 27,
+    "decodes_after": {
+      "none (PNG)": true,
+      "JPEG quality 75": true,
+      "JPEG quality 40": true,
+      "resize to 90%": true,
+      "crop 10% off the edges": true,
+      "screenshot (80% + JPEG 85)": true
+    }
+  }
+}

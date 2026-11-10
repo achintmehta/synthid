@@ -1,0 +1,11 @@
+# 00_toy_tournament.py
+matplotlib
+# 01_generate.py  (for a GPU, install torch from https://download.pytorch.org/whl/cu130 first)
+torch>=2.4
+transformers>=4.46
+# 02_watermark_pairs.py
+numpy
+pillow
+invisible-watermark
+# optional, second row of the image figure (downloads its weights on first run)
+# trustmark

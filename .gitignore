@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Hugging Face / torch caches if created locally
+.cache/
+# Vegas Pro audio peak cache files
+*.sfk
+# OS
+Thumbs.db
+.DS_Store
